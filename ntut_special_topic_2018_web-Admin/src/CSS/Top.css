@@ -1,0 +1,24 @@
+.Top_nav {
+  left: 0;
+  right: 0;
+  height: 3em;
+  display: flex;
+  margin-left: 280px;
+  align-items: center;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+.Top_btn {
+  font-size: 0.8em;
+  margin-left: 2em;
+  padding: 0.2em;
+  text-align: center;
+  color: #6cc0e5;
+  border: 1px solid #6cc0e5;
+}
+
+.Top_btn:focus,
+.Top_btn:hover {
+  color: #fff;
+  background-color: #6cc0e5;
+}
